@@ -23,3 +23,6 @@ print("Variance score: {}".format(model.score(train_x[pred_var],train_x[outcome_
 input=[[21.92,32960,27.633,-80.4031,105638,1371939613,27.339943,-81.199244]]  #fraud input
 output=model.predict(input) 
 print(input,np.round_(output,0))
+
+
+#the dataset for this code can be found here:https://www.kaggle.com/datasets/kartik2112/fraud-detection
